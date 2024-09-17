@@ -1,0 +1,126 @@
+
+
+#horariobotones th {
+    background-color: blue; /* Color azul para el encabezado */
+    color: white; /* Texto en color blanco */
+    border: none; /* Elimina el borde para las celdas th en el thead */
+}
+
+
+
+tbody {
+background-color:#FFF5E1 }
+
+        #horariobotones {
+        border-collapse: separate;
+         border-spacing: 0;
+            width: 80%;
+            border: 0,8px solid grey;
+            position: absolute;
+            margin-top: 20%;
+            margin-left: 10%;
+            border-radius: 13px;
+      overflow: hidden; /* Para ocultar las esquinas redondeadas de las celdas internas */
+        }
+
+   #horariobotones td:first-child{ width: 10%;
+    font-weight: bold;
+    background-color: lightgrey;
+    text-align: center;
+   
+
+ }
+
+#horariobotones td:nth-child(2){ width 15%;
+    font-weight: ;
+    background-color: ;
+    text-align: ;
+    }
+
+
+        td {
+            border: 1px solid grey;
+            padding: 8px;
+            text-align: left;
+        }
+
+    #horariobotones td, #horariobotones th {
+    border: 1px solid grey;
+    padding: 8px;
+    text-align: center;
+    }     
+    button {
+    width: 100%; /* El botón ocupa el 100% del ancho de su contenedor */
+    box-sizing: border-box; 
+   
+    color: black; /* Color del texto */
+    padding: 10px 10px; /* Espaciado interno */
+    border: none; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    }
+
+    /* Estilos para el botón cuando se pasa el mouse sobre él */
+   
+    #horariobotones th:hover {
+    color: red;
+    }
+
+    #horariobotones td:first-child:hover,  #horariobotones th:first-child:hover {
+    color: yellow;
+    }
+
+    button:hover {
+    background-color: #45a049; 
+    border-color: red;
+    color: red;
+    font-weight: bold;
+
+    transform: scale(1,1); 
+
+    }
+    button:active {
+    box-shadow: inset 0 8px 7px rgba(0, 0, 0, 1); /* Efecto de hundimiento */
+    }
+    
+    .Ref {
+    background-color: brown}
+    .fpb{
+    background-color: salmon}
+    
+    .mat2 {
+    background-color: khaki}
+    .mat4 {
+    background-color: violet}
+    
+    .fyq2 {
+    background-color: pink}
+    
+    .fyq3 {
+    background-color: cyan}
+
+    .Guar {
+    background-color: beige}
+    .Guar:hover {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .mensaje {
+            display: none;
+            position: ;
+            color: green;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: ;
+            border-radius: px;
+            font-weight: bold;
+        }
+    td:hover .mensaje {
+            display: block;
+    background-color:white;
+        }
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="refresh" content="2" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="./Clases23Web/estiloheader.css">
+    <link rel="stylesheet" type="text/css" href="./Clases23Web/estilotabla.css">
+    <title>Clases24/25</title>
+
+ </head>
+
+    <body>
+    <header>
+        <div id="titulo" contenteditable="true">Curso 24/25</div>
+        <img src="./Clases23Web/Logo horizontal CentroSA.png" id="logo1" alt="Logo Centro SA">
+        <img src="./Clases23Web/logo.png" id="logo2" alt="logo peq">
+    </header>
+
+        <table id="horariobotones">
+
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>8:00-9:00</td>
+                             <td rowspan="2"><div class="mensaje"> LIBRE </div></td>
+                             <td class="Guar" onclick="openLinks('Guar')">Guardia Fp </td>
+                            <td> <button class="mat4" onclick="openLinks('Mat4oracion')">4ºMat</button> </td>
+                            <td> <button class="mat2" onclick="openLinks('Mat4oracion')">2ºMat</button> </td>
+                            <td> <div class="mensaje"> LIBRE </div></td>
+                        </tr>
+                        <tr>
+                            <td>9:00-10:00</td>
+                           
+                            <td><button class="fpb" onclick="openLinks('FPB')">1ºFPB</button></td>
+                            <td><button class="fpb" onclick="openLinks('FPB')">1ºFPB</button></td>
+                            <td rowspan="2"><div class="mensaje"> LIBRE </div></td>
+                            <td> <button class="mat2" onclick="openLinks('Mat2')">2ºFyQ</button> </td>
+                        </tr>
+                        <tr>
+                            <td>10:00-11:00</td>
+                             <td> <button class="fyq2" onclick="openLinks('FyQ2')">2ºFyQ</button> </td>
+                             <td> <button class="mat4" onclick="openLinks('Mat4')">4ºMat</button> </td>
+                             <td> <button class="mat2" onclick="openLinks('Mat2')">2ºMat</button> </td>
+                            
+                             <td><button class="fpb" onclick="openLinks('FPB')">1ºFPB</button></td>
+
+                        </tr>
+                        <tr>
+                            <td>11:00-11:30</td>
+                            <td class="Guar">Recreo</td>
+                            <td colspan="4"><div class="mensaje"> LIBRE </div></td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>11:30-12:30</td>
+                            <td><button class="fpb" onclick="openLinks('FPB')">1ºFPB</button></td>
+                            <td class="Guar" onclick="openLinks('Guar')">Guardia </td>
+                            <td class="Guar" onclick="openLinks('Guar')">Guardia Fp </td>
+                            <td> <button class="tuto" onclick="openLinks('Tuto')">2ºTuto</button> </td>
+                            <td> <button class="mat4" onclick="openLinks('Mat4')">4ºMat</button> </td>
+
+                        </tr>
+                      
+                        <tr>
+                            <td>12:30-13:30</td>
+                            <td> <button class="mat4" onclick="openLinks('Mat4')">4ºMat</button> </td>
+                            <td> <button class="mat2" onclick="openLinks('Mat2')">2ºMat</button> </td>
+                            <td> <button class="fyq3" onclick="openLinks('FyQ3')">3ºFyQ</button> </td>
+                            <td> <button class="fyq3" onclick="openLinks('FyQ3')">3ºFyQ</button> </td>
+                            <td class="Guar" onclick="openLinks('Guar')">Guardia </td>
+
+
+                        </tr>
+                        
+                        <tr>
+                            <td>13:30-14:30</td>
+                            <td class="Guar" onclick="openLinks('Guar')">Guardia </td>
+                            <td> <button class="fyq3" onclick="openLinks('FyQ3')">3ºFyQ</button> </td>
+                            <td class="Guar" onclick="openLinks('Guar')">Guardia </td>
+                            <td> <button class="fyq2" onclick="openLinks('FyQ2')">2ºFyQ</button> </td>
+                            <td> <button class="fyq2" onclick="openLinks('FyQ2')">2ºFyQ</button> </td>
+
+                            
+                          
+                        </tr>
+                       
+                           
+                    </tbody>
+                
+                </table>
+
+                
+        <script src="enlaces.js"></script>  
+
+   
+        <!--se ha pasado la funcion openLinks al archivo enlaces.js pq los enlaces se db cargar primero y los enlaces estan en ese archivo -->
+
+
+
+
+
+  
+</body>
+</html>
+

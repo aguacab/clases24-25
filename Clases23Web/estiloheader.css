@@ -1,0 +1,31 @@
+
+
+        img {
+            display: inline-block;
+            position: absolute;
+        }
+
+        #logo1 {
+            left: 5%;
+            max-width: 75%;
+            margin-top: 5%;
+        }
+
+        #logo2 {
+            right: 5%;
+            max-width: 8%;
+            margin-top: 5%;
+        }
+
+
+         #titulo {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 17%;
+        }
+
+   
